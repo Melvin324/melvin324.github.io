@@ -14,8 +14,21 @@
 <meta property="og:url" content="http://yoursite.com/archives/2020/index.html">
 <meta property="og:site_name" content="Melvin&#39;s Blog">
 <meta property="og:description" content="不断堆砌的Blog">
-<meta property="og:locale" content="en_US">
+<meta property="og:locale" content="zh_CN">
 <meta property="article:author" content="Melvin">
+<meta property="article:tag" content="后端">
+<meta property="article:tag" content="半个前端">
+<meta property="article:tag" content="java">
+<meta property="article:tag" content="C#">
+<meta property="article:tag" content="js">
+<meta property="article:tag" content="vue">
+<meta property="article:tag" content="html">
+<meta property="article:tag" content="scss">
+<meta property="article:tag" content="开发">
+<meta property="article:tag" content="攻城狮">
+<meta property="article:tag" content="程序猿">
+<meta property="article:tag" content="极客">
+<meta property="article:tag" content="博客">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternative" href="/atom.xml" title="Melvin&#39;s Blog" type="application/atom+xml">
@@ -83,11 +96,7 @@
 		        
 					<a class="weibo" target="_blank" href="#" title="weibo"><i class="icon-weibo"></i></a>
 		        
-					<a class="rss" target="_blank" href="#" title="rss"><i class="icon-rss"></i></a>
-		        
 					<a class="zhihu" target="_blank" href="#" title="zhihu"><i class="icon-zhihu"></i></a>
-		        
-					<a class="qq" target="_blank" href="/490571262" title="qq"><i class="icon-qq"></i></a>
 		        
 					<a class="mail" target="_blank" href="mailto:490571262@qq.com" title="mail"><i class="icon-mail"></i></a>
 		        
@@ -128,11 +137,7 @@
 			        
 						<a class="weibo" target="_blank" href="#" title="weibo"><i class="icon-weibo"></i></a>
 			        
-						<a class="rss" target="_blank" href="#" title="rss"><i class="icon-rss"></i></a>
-			        
 						<a class="zhihu" target="_blank" href="#" title="zhihu"><i class="icon-zhihu"></i></a>
-			        
-						<a class="qq" target="_blank" href="/490571262" title="qq"><i class="icon-qq"></i></a>
 			        
 						<a class="mail" target="_blank" href="mailto:490571262@qq.com" title="mail"><i class="icon-mail"></i></a>
 			        
@@ -190,7 +195,37 @@
 
         <div class="article-info info-on-right">
           
+	<div class="article-tag tagcloud">
+		<i class="icon-price-tags icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">tag1</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">tag2</a>
+        		</li>
+      		 
+        		<li class="article-tag-list-item">
+        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color5">tag3</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
           
+	<div class="article-category tagcloud">
+		<i class="icon-book icon"></i>
+		<ul class="article-tag-list">
+			 
+        		<li class="article-tag-list-item">
+        			<a href="/categories/日常//" class="article-tag-list-link color3">日常</a>
+        		</li>
+      		
+		</ul>
+	</div>
+
 
         </div>
         <div class="clearfix"></div>
@@ -320,6 +355,18 @@ return o(i(t),arguments.length<2?void 0:u(arguments[1]))}})},function(t,n,r){var
             <input type="checkbox" q-on="click:toggleTag(e)" q-attr="checked:showTags">
           </label>
           <ul class="article-tag-list" q-show="showTags">
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">tag1</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">tag2</a>
+              </li>
+             
+              <li class="article-tag-list-item">
+                <a href="javascript:void(0)" class="js-tag color5">tag3</a>
+              </li>
             
             <div class="clearfix"></div>
           </ul>
